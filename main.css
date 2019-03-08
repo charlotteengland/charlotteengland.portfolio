@@ -50,8 +50,8 @@ h2 span {
 }
 
 .aboutMe {
-   font-size: 45px;
-   line-height: 65px;
+   font-size: 30px;
+   line-height: 50px;
 }
 
 
@@ -101,13 +101,13 @@ section img {
 
 @media screen and (min-width:750px) {
    h1 {
-      font-size: 80px;
-      line-height: 100px;
+      font-size: 75px;
+      line-height: 95px;
    }
    
    header {
-      font-size: 90px;
-      line-height: 110px;
+      font-size: 70px;
+      line-height: 90px;
    }
    body {
       font-size: 55px;
@@ -120,12 +120,12 @@ section img {
    }
 
    .projectName, .aboutMe {
-      font-size: 75px;
+      font-size: 55px;
 
    }
 
    .aboutMe {
-      line-height: 95px;
+      line-height: 75px;
    }
 
 }
