@@ -1,0 +1,132 @@
+* {
+   box-sizing: border-box;
+}
+
+@font-face {
+   font-family: 'karlaregular';
+   src: url('fonts/karla-regular-webfont.woff2') format('woff2'),
+        url('fonts/karla-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+@font-face {
+   font-family: 'asapregular';
+   src: url('fonts/asap-regular-webfont.woff2') format('woff2'),
+        url('fonts/asap-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+body {
+    font-size: 24px;
+    line-height: 44px;
+    font-family: karlaregular;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    color: #0A2342;
+}
+
+h1 {
+   font-size: 35px;
+   line-height: 55px;
+   text-transform: uppercase;
+   color: #F46197;
+}
+
+
+h2 {
+   font-size: 20px;
+   text-transform: uppercase;
+}
+
+h2 span {
+   color: #2CA58D;
+   margin-left: 15px;
+
+}
+
+.aboutMe {
+   font-size: 45px;
+   line-height: 65px;
+}
+
+
+section {
+   min-height: 200px;
+   padding: 6% 0;
+}
+
+nav, footer {
+   padding: 5% 0;
+}
+
+nav li {
+   list-style: none;
+   display: inline-block;
+   text-transform: upperCase;
+   margin-right: 6%;
+   margin-left: 0;
+   font-size: 20px;
+}
+
+nav li a {
+   text-decoration: underline;
+   color: #2CA58D;
+}
+
+hr {
+   display: block;
+   margin-top: 0.5em;
+   border-color: #042342;
+   border-style: inset;
+   border-width: 0.5px;
+}
+
+section img {
+   max-width: 100%;
+}
+
+.contactInfo li {
+   list-style: none;
+}
+
+.contactInfo h2 {
+   color: #2CA58D;
+}
+
+
+@media screen and (min-width:750px) {
+   h1 {
+      font-size: 80px;
+      line-height: 100px;
+   }
+   
+   header {
+      font-size: 90px;
+      line-height: 110px;
+   }
+   body {
+      font-size: 55px;
+      line-height: 75px;
+   }
+
+   nav li {
+      font-size: 50px; 
+
+   }
+
+   .projectName, .aboutMe {
+      font-size: 75px;
+
+   }
+
+   .aboutMe {
+      line-height: 95px;
+   }
+
+}
+
