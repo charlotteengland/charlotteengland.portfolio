@@ -24,8 +24,8 @@ body {
     font-size: 24px;
     line-height: 44px;
     font-family: karlaregular;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: left;
     color: #0A2342;
 }
@@ -54,6 +54,10 @@ h2 span {
    line-height: 50px;
 }
 
+.moreaboutMe {
+
+}
+
 
 section {
    min-height: 200px;
@@ -69,8 +73,9 @@ nav li {
    display: inline-block;
    text-transform: upperCase;
    margin-right: 6%;
-   margin-left: 0;
    font-size: 20px;
+   text-align: center;
+   
 }
 
 nav li a {
@@ -112,6 +117,8 @@ section img {
    body {
       font-size: 55px;
       line-height: 75px;
+      margin-left: 15%;
+    margin-right: 15%;
    }
 
    nav li {
